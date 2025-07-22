@@ -376,7 +376,7 @@ class my_window(QMainWindow):
         self.scroll.setWidget(self.widget)
 
         # Add a background image to the main widget
-        pixmap = QPixmap("Source code zdokumentovany/pozadie.png")  
+        pixmap = QPixmap("pozadie.png")  
         background_label = QLabel(self.widget)
         background_label.setPixmap(pixmap)
         background_label.setGeometry(0, 0, self.width(), self.height())
@@ -665,7 +665,7 @@ class my_window(QMainWindow):
         Raises:
             - Catches and prints any exceptions raised during the file opening process.
         """
-        pdf_file_path = "C:/Users/filip/Desktop/TriMePh publikaia/Source code zdokumentovany/Dokumentacia.pdf"  
+        pdf_file_path = "Dokumentacia.pdf"  
         
         try:
             os.startfile(pdf_file_path)
