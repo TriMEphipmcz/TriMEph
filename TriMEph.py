@@ -665,7 +665,7 @@ class my_window(QMainWindow):
         Raises:
             - Catches and prints any exceptions raised during the file opening process.
         """
-        pdf_file_path = "Dokumentacia.pdf"  
+        pdf_file_path = "User Manual.pdf"  
         
         try:
             os.startfile(pdf_file_path)

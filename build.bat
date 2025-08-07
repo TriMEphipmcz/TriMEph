@@ -10,7 +10,7 @@ python -m PyInstaller ^
   --windowed ^
   --icon "resources//Logo.jpg" ^
   --add-data "resources//pozadie.png;." ^
-  --add-data "resources//Dokumentacia.pdf;." ^
+  --add-data "resources//User Manual.pdf;." ^
   --add-data "resources//Logo.jpg;." ^
   TriMEph.py
 

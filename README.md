@@ -8,7 +8,7 @@ Repository layout:
 - examples/                    – sample input data files
 - resources/                   – static assets bundled with the app
   - pozadie.jpg                – background image
-  - Dokumentacia.pdf           – user manual
+  - User Manual.pdf           – user manual
   - LICENCE.txt                – MIT license copy
 - LICENSE                      – MIT license (root copy)
 - README.md                    – this overview + instructions
@@ -28,7 +28,7 @@ How to create a user-friendly release bundle:
 2. Copy into it:
    • dist\TriMEph.exe
    • resources\pozadie.jpg
-   • resources\Dokumentacia.pdf
+   • resources\User Manual.pdf
    • resources\LICENCE.txt
    • the entire examples\ folder
 3. Archive that folder as a .zip or .tar.gz and distribute it
