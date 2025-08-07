@@ -7,7 +7,7 @@ Repository layout:
 - build.bat                    – Windows build script (PyInstaller)
 - examples/                    – sample input data files
 - resources/                   – static assets bundled with the app
-  - pozadie.jpg                – background image
+  - backround.jpg                – background image
   - User Manual.pdf           – user manual
   - LICENCE.txt                – MIT license copy
 - LICENSE                      – MIT license (root copy)
@@ -27,7 +27,7 @@ How to create a user-friendly release bundle:
 1. Create a folder named TriMEph_vX.Y (e.g. TriMEph_v1.0)
 2. Copy into it:
    • dist\TriMEph.exe
-   • resources\pozadie.jpg
+   • resources\backround.jpg
    • resources\User Manual.pdf
    • resources\LICENCE.txt
    • the entire examples\ folder

@@ -376,7 +376,7 @@ class my_window(QMainWindow):
         self.scroll.setWidget(self.widget)
 
         # Add a background image to the main widget
-        pixmap = QPixmap("pozadie.png")  
+        pixmap = QPixmap("backround.png")  
         background_label = QLabel(self.widget)
         background_label.setPixmap(pixmap)
         background_label.setGeometry(0, 0, self.width(), self.height())
